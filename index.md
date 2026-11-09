@@ -1,6 +1,6 @@
 # Project Reports
 
-Your Name
+Martin Nguyen
 
 * [Tests](./tests/test/)
 * [JavaDoc](./javadoc/)
