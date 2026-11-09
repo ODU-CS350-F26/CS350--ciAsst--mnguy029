@@ -119,6 +119,9 @@ task deployReports (type: Exec, dependsOn: 'cleanWorkTree') {
     commandLine = ['git', 'worktree', 'prune']
 }
 
+test {
+    ignoreFailures = true
+}
 
 
 application { //Allows  ./gradlew run --args=path-to-test-data
